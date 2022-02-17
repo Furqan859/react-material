@@ -1,11 +1,19 @@
-import Navigationbar from './component/Navigationbar';
+import Header from './component/Header';
+import Footer from './component/Footer';
+import Index from './component/Index';
 import Typography from '@mui/material/Typography';
 
 function App() {
   return (
     <Typography>
-  
-     <Navigationbar />
+
+    
+  <Header/>
+
+  <Index/>
+
+  <Footer/>
+    
   
     </Typography>
   );
