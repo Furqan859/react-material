@@ -1,9 +1,9 @@
 import React from 'react'
 import {AppBar,Toolbar,Typography,Grid,Icon} from '@mui/material';
 
-export default function Header() {
+export default function Header({theme}) {
   return (
-    <AppBar position='static' >
+    <AppBar position='static' color={theme} variant={theme}>
     <Grid container sm={12}>
    
     <Grid Item sm={11}>
